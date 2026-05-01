@@ -1,0 +1,10 @@
+case_id,name,solar_date,solar_time,birth_place,birth_longitude,birth_timezone,case_type,answer_year,answer_month,answer_day,answer_hour,note
+1,A,2009-02-03,21:00,서울,126.978,Asia/Seoul,입춘 경계,무자,을축,기묘,갑술,
+2,B,2022-07-06,6:00,부산,129.075,Asia/Seoul,소서 경계,임인,병오,경신,기묘,
+3,C,2005-04-05,,서울,126.978,Asia/Seoul,청명 경계,을유,기묘,기미,,
+4,D,2012-11-07,1:00,대구,128.601,Asia/Seoul,자시,임진,경술,임신,경자,
+5,E,2020-12-16,14:00,인천,126.706,Asia/Seoul,일반,경자,무자,계사,기미,
+6,F,2024-02-29,10:30,서울,126.978,Asia/Seoul,윤년,갑진,병인,계해,정사,
+7,G,2010-08-15,14:30,Los Angeles,-118.24,America/Los_Angeles,global_LA_normal,경인,갑신,정유,정미,원광 변환=14:37
+8,H,2015-03-20,9:00,New York,-74,America/New_York,global_NYC_DST_active,을미,기묘,을미,신사,원광 변환=09:04
+9,I,2020-03-08,2:30,Los Angeles,-118.24,America/Los_Angeles,global_DST_boundary,경자,기묘,경술,정축,원광 변환=02:37

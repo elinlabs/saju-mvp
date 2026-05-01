@@ -1,0 +1,44 @@
+# 환경 변수 (인증키 포함) - 절대 커밋 금지
+.env
+**/.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Node.js (W4 이후 사용 예정)
+node_modules/
+.next/
+dist/
+build/
+
+# 출력 파일 (생성된 PDF 등)
+output/
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 임시 파일
+*.tmp
+*.log
+errors.log
+
+# 박제 데이터 - 용량 클 수 있음, 별도 백업 정책
+# 단, 첫 백업에는 포함 (CSV는 작아서 OK)
+# data-collection/output/*.csv
