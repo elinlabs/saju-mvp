@@ -1,2 +1,4 @@
 .env
-output/
+# output/ 제거 — 박제 CSV는 Git에 포함
+**/errors.log
+**/*.log

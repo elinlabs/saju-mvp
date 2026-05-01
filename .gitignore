@@ -21,8 +21,10 @@ node_modules/
 dist/
 build/
 
-# 출력 파일 (생성된 PDF 등)
-output/
+# 출력 파일 - 디버깅 로그만 무시, CSV 박제 데이터는 포함
+**/errors.log
+**/*.log
+# output/ 전체 무시는 제거 (CSV는 포함)
 
 # IDE 설정
 .vscode/
